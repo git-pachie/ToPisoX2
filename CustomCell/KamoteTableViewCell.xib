@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kamotecell" rowHeight="122" id="KGk-i7-Jjw" customClass="KamoteTableViewCell" customModule="ToPisoX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="121.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Archimedes Angeles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBa-ur-ZOo">
+                        <rect key="frame" x="124" y="11" width="256" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile1" translatesAutoresizingMaskIntoConstraints="NO" id="a9n-4s-g3O">
+                        <rect key="frame" x="16" y="11" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="22t-DX-pw0"/>
+                            <constraint firstAttribute="height" constant="100" id="5my-PI-2gc"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="l65-rh-ZsC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="archieangeles@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3T-yM-GJX">
+                        <rect key="frame" x="124" y="34" width="256" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="12"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="320 Poblacion, San Isidro Nueva Ecija" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHg-1W-Kdl">
+                        <rect key="frame" x="124" y="51.5" width="256" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="12"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="O2d-Gd-iuF">
+                        <rect key="frame" x="124" y="73" width="246" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZ7-P5-eM9">
+                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="One"/>
+                                <connections>
+                                    <action selector="buttonOneAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ezI-U3-pP0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8z-kT-G19">
+                                <rect key="frame" x="82.5" y="0.0" width="81" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Two"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61w-5x-9Pt">
+                                <rect key="frame" x="165.5" y="0.0" width="80.5" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Three"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rHg-1W-Kdl" secondAttribute="trailing" constant="16" id="5aI-F2-noK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="O2d-Gd-iuF" secondAttribute="trailing" constant="10" id="6qH-3x-Cbk"/>
+                    <constraint firstItem="SBa-ur-ZOo" firstAttribute="leading" secondItem="a9n-4s-g3O" secondAttribute="trailing" constant="8" id="Fwb-Pm-Zp1"/>
+                    <constraint firstItem="a9n-4s-g3O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="IsM-PN-po7"/>
+                    <constraint firstAttribute="trailing" secondItem="o3T-yM-GJX" secondAttribute="trailing" constant="16" id="Mrr-WX-xe2"/>
+                    <constraint firstItem="o3T-yM-GJX" firstAttribute="top" secondItem="SBa-ur-ZOo" secondAttribute="bottom" constant="2.5" id="Rxb-mJ-iJY"/>
+                    <constraint firstItem="O2d-Gd-iuF" firstAttribute="leading" secondItem="a9n-4s-g3O" secondAttribute="trailing" constant="8" id="Sj9-vU-JOw"/>
+                    <constraint firstItem="O2d-Gd-iuF" firstAttribute="top" secondItem="rHg-1W-Kdl" secondAttribute="bottom" constant="7" id="XVb-Qu-24f"/>
+                    <constraint firstItem="SBa-ur-ZOo" firstAttribute="top" secondItem="a9n-4s-g3O" secondAttribute="top" id="YQf-eP-kaR"/>
+                    <constraint firstAttribute="trailing" secondItem="SBa-ur-ZOo" secondAttribute="trailing" constant="16" id="ccq-5f-SM9"/>
+                    <constraint firstItem="a9n-4s-g3O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="frG-aq-eMI"/>
+                    <constraint firstItem="O2d-Gd-iuF" firstAttribute="leading" secondItem="rHg-1W-Kdl" secondAttribute="leading" id="gkv-tV-1hd"/>
+                    <constraint firstItem="O2d-Gd-iuF" firstAttribute="leading" secondItem="o3T-yM-GJX" secondAttribute="leading" id="s8L-US-FNJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="O2d-Gd-iuF" secondAttribute="bottom" constant="8" id="zjL-Yh-T1G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageProfile" destination="a9n-4s-g3O" id="XgT-iv-45P"/>
+                <outlet property="lblAddress" destination="rHg-1W-Kdl" id="Gyy-4y-8SU"/>
+                <outlet property="lblEmail" destination="o3T-yM-GJX" id="vEW-B8-zwi"/>
+                <outlet property="lblName" destination="SBa-ur-ZOo" id="NXV-zN-UyL"/>
+            </connections>
+            <point key="canvasLocation" x="63" y="91"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Profile1" width="354" height="354"/>
+    </resources>
+</document>
